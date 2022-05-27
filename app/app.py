@@ -11,7 +11,7 @@ def server_layout():
                         html.Div(df['Articulo 1']),
                         html.Div(df['Articulo 2']),
                         html.Div(df['Articulo 3']),
-                        html.Dib(df['Articulo 4']),])
+                        html.Div(df['Articulo 4']),])
 
 app.layout = server_layout
 
