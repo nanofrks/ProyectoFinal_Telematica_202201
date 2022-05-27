@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 app = Dash(__name__)
 
 def server_layout():
-    df = pd.read_excel('volumen/datos.xlsx')
+    df = pd.read_excel('/volumen/datos.xlsx')
     return html.Div([html.H1('piedras preciosas'),
                         html.Div('amo las piedras'),
                         html.Div(df['Articulo 1']),
