@@ -1,3 +1,15 @@
 Proyecto final telemática 2022-01
 Natalia Arboleda Arboleda
 ID 000165655
+
+se trabajó con volumen: en el archivo de datos del volumen se puede actualizar el contenido de los artículos.
+
+Ingresar a la carpeta app, donde se encuentran los archivos
+posteriormente se ejecuta: sudo docker build -t pag:nano
+
+
+una vez finalizada la instalación, se debe ejecutar el comando: 
+sudo docker run -d -v <ruta absoluta de donde se encuentra la carpeta del volumen>:<nombre de la carpeta del volumen> -p 80:80 pag:nano python3 app.py
+
+por ejemplo:
+sudo docker run -d -v /home/nano/Documents/ProyectoFinal_Telematica_202201/app/volumen/:/volumen/ -p 80:80 pag:nano python3 app.py
