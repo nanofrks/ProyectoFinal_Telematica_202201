@@ -5,7 +5,7 @@ ID 000165655
 se trabajó con volumen: en el archivo de datos del volumen se puede actualizar el contenido de los artículos.
 
 Ingresar a la carpeta app, donde se encuentran los archivos
-posteriormente se ejecuta: sudo docker build -t pag:nano
+posteriormente se ejecuta: sudo docker build -t pag:nano .
 
 
 una vez finalizada la instalación, se debe ejecutar el comando: 
